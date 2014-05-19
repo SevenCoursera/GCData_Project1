@@ -9,34 +9,34 @@ The raw data for this project can be downloaded from:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 Data files used in this project:
-- 'features_info.txt':      Shows information about the variables used on the feature vector.
+- `features_info.txt`:      Shows information about the variables used on the feature vector.
 
-- 'features.txt':           List of all features.
+- `features.txt`:           List of all features.
 
-- 'activity_labels.txt':    Links the class labels with their activity name.
+- `activity_labels.txt`:    Links the class labels with their activity name.
 
-- 'train/X_train.txt':      Training set.
+- `train/X_train.txt`:      Training set.
 
-- 'train/y_train.txt':      Training labels.
+- `train/y_train.txt`:      Training labels.
 
-- 'train/subject_train.txt':Each row identifies the subject who performed the activity for each window sample of trainning set. Its range is from 1 to 30. 
+- `train/subject_train.txt`:Each row identifies the subject who performed the activity for each window sample of trainning set. Its range is from 1 to 30. 
 
-- 'test/X_test.txt':        Test set.
+- `test/X_test.txt`:        Test set.
 
-- 'test/y_test.txt':        Test labels.
+- `test/y_test.txt`:        Test labels.
 
-- 'test/subject_test.txt':  Each row identifies the subject who performed the activity for each window sample of testing set. Its range is from 1 to 30. 
+- `test/subject_test.txt`:  Each row identifies the subject who performed the activity for each window sample of testing set. Its range is from 1 to 30. 
 
 
 ## The instruction list
 
-1.  Load original data 'X_train.txt' and 'X_test.txt'.
+1.  Load original data `X_train.txt` and `X_test.txt`.
 2.  Join the Activity and Subject labels to datasets 'X_train' and 'X_test'.
 3.  Join the Set labels "training" and "testing" to datasets 'X_train' and 'X_test', so that in the combined datasets, data can also be identified.
 4.  Merge the two datasets 'X_train' and 'X_test' into one dataset 'X'.
 5.  Extract only the measurements on the mean and standard deviation for each measurement.
-    Key words "mean" and "std" were used in feature selection from 'features.txt', however angle features such as "angle(X,gravityMean)" were not selected.
-6.  Use descriptive activity names in 'activity_labels.txt' to name the activities in the data set by converting the activity column to factors.
+    Key words "mean" and "std" were used in feature selection from `features.txt`, however angle features such as "angle(X,gravityMean)" were not selected.
+6.  Use descriptive activity names in `activity_labels.txt` to name the activities in the data set by converting the activity column to factors.
 7.  Change the column names of features with more readable names by the following steps:
     * Remove character '(', '(' from names
     * Replace character '-' by '.'
@@ -44,7 +44,7 @@ Data files used in this project:
     * Change "mean" and "std" in captial initial format.
 8.  Create a second, independent tidy data set with the average of each variable for each activity and each subject.
     This can be done by different packages and functions such as plyr, reshape2 and aggregation.
-9.  Save the clean data sets into files 'X_clean.txt' and 'X_mean.txt'.
+9.  Save the clean data sets into files `X_clean.txt` and `X_mean.txt`.
 
 ## Variables in the Clean Data Set.
 
