@@ -6,7 +6,7 @@ Description of the variables, the data, and any transformations or work that hav
 ## Raw Data
 
 The raw data for this project can be downloaded from:
-<a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 Data files used in this project:
 - 'features_info.txt':      Shows information about the variables used on the feature vector.
